@@ -1,9 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+	font-family: 'Oswald', sans-serif;
 }
 
-html {
-    font-size: 12px;
+header {
+	font-family: 'Combo', cursive;
+	font-size: 4rem;
+    text-align: center;
+    height: 20%;
+    background-color: darkslategrey;
+    color: lightgray;
+    width: 100%;
+}
+
+.employee-card {
+	position: absolute;
+    width: 100%;
+    display: flex;
+    margin: 32px;
+    text-align: center;
+    flex-wrap: wrap;
+	align-content: center;
+}
+
+.card-body {
+	position: relative;
+	box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    height: 450px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+	align-content: center;
 }

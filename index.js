@@ -1,10 +1,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateHtml = require('dist/index.html')
+const generateHtml = require('./dist/index.html');
 inquirer.registerPrompt('loop', require('inquirer-loop')(inquirer));
-const Manager = require('');
-const Engineer = require('');
-const Intern = require('');
+const Manager = require('./lib/manager');
+const Engineer = require('./lib/engineer');
+const Intern = require('./lib/intern');
 
 const questions = [];
 
@@ -97,7 +97,7 @@ function init(){
 function writeToFile(html) {
 	fs.writeToFile('index.html', html, function (err) {
 		if (err) throw err;
-		console.log(Creating Team!);
+		console.log("Creating Team!");
 });	
 }
 
