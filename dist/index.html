@@ -7,60 +7,90 @@
 		<link rel="stylesheet" href="./style.css">
 		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
 	</head>
-	<body>
-		<header>
-			MY TEAM
-		</header>
-		<main>
-			<div class="card employee-card">
-					<h2>Joe</h2>
-					<h4>Manager</h4>
-			</div>
-			<div class="card-body">
-				<ul>
-					<li class="list-group-item">ID: 1234</li>
-					<li class="list-group-item">Email: <a href="mailto:manager@gmail.com">manager@gmail.com</a></li>
-					<li class="list-group-item">Office number: 555-555-5555</li>
-				</ul>
-			</div>
-			<div class="card employee-card">
-				<div>
-					<h2>Steve</h2>
-					<h4>Engineer</h4>
-				</div>
-				<div class="card-body">
-					<ul class="list-group">
-						<li class="list-group-item">ID: 5678</li>
-						<li class="list-group-item">Email: <a href="mailto:engineer@gmail.com">engineer@gmail.com</a></li>
-						<li class="list-group-item">GitHub: <a href="https://github.com/deanna-dewitt14" target="_blank" rel="noopener noreferrer">deanna-dewitt14</a></li>
-					</ul>
-				</div>
-			</div>	
-			<div class="card employee-card">
-				<div>
-					<h2>Amy</h2>
-					<h4>Engineer</h4>
-				</div>
-				<div class="card-body">
-					<ul class="list-group">
-						<li class="list-group-item">ID: 5678</li>
-						<li class="list-group-item">Email: <a href="mailto:engineer@gmail.com">engineer2@gmail.com</a></li>
-						<li class="list-group-item">GitHub: <a href="https://github.com/deanna-dewitt14" target="_blank" rel="noopener noreferrer">deanna-dewitt14</a></li>
-					</ul>
-				</div>
-			</div>		
-			<div class="card employee-card">
-					<h2>Robert</h2>
-					<h4>Intern</h4>
-				</div>
-				<div class="card-body">
-					<ul class="list-group">
-						<li class="list-group-item">ID: 9101</li>
-						<li class="list-group-item">Email: <a href="mailto:intern@gmail.com">intern@gmail.com</a></li>
-						<li class="list-group-item">School: UNC Chapel Hill</li>
-					</ul>
-				</div>
-			</div>
-		</main>
-	</body>
-</html>
+    <body>
+        <nav>
+            <h1>My Team</h1>
+        </nav>
+        <main>
+            <div class='row'>
+                <div class='manager'>
+                    <div class='manager-card'>
+                        <div class='col'>
+        <div class='card'>
+            <div class='card-title'>
+                <h2 class='name'>Albus Dumbledore</h3>
+                <h3 class='type'>Manager</h4>
+            </div>
+            <div class='card-body'>
+            <p>ID: <span class='ID'>123</span></p>
+                <p>Email: <span class='Email'><a href='mailto:albusdumbledore@gmail.com'>albusdumbledore@gmail.com</a></span></p>
+                <p>Office Number: <span class='officeNumber'>934</span></p>
+            </div>
+        </div>
+    </div>
+                    </div>
+                </div>
+                <div class='employees'>
+                    <div class='engineers'>
+                        <div class='engineer-cards'>
+                            <div class='col'>
+            <div class='card'>
+                <div class='card-title'>
+                    <h2 class='name'>Harry Potter</h3>
+                    <h3 class='type'>Engineer</h4>
+                </div>
+                <div class='card-body'>
+                    <p>ID: <span class='ID'>456</span></p>
+                    <p>Email: <span class='Email'><a href='mailto:theboywholived@gmail.com'>theboywholived@gmail.com</a></span></p>
+                    <p>Github: <span class='Github'><a href='https://www.github.com/harrypotter'  target='_blank'>harrypotter</a></span></p>
+                </div>
+            </div>
+        </div><div class='col'>
+            <div class='card'>
+                <div class='card-title'>
+                    <h2 class='name'>Hermione Granger</h3>
+                    <h3 class='type'>Engineer</h4>
+                </div>
+                <div class='card-body'>
+                    <p>ID: <span class='ID'>789</span></p>
+                    <p>Email: <span class='Email'><a href='mailto:hermionegranger@gmail.com'>hermionegranger@gmail.com</a></span></p>
+                    <p>Github: <span class='Github'><a href='https://www.github.com/hermionegranger'  target='_blank'>hermionegranger</a></span></p>
+                </div>
+            </div>
+        </div>
+                        </div>
+                    </div>
+                    <div class='interns'>
+                        <div class='intern-cards'>
+                            <div class='col'>
+            <div class='card'>
+                <div class='card-title'>
+                    <h2 class='name'>Ronald Weasley</h3>
+                    <h3 class='type'>Intern</h4>
+                </div>
+                <div class='card-body'>
+                    <p>ID: <span class='ID'>258</span></p>
+                    <p>Email: <span class='Email'><a href='mailto:scabberslover@gmail.com'>scabberslover@gmail.com</a></span></p>
+                    <p>School: Hogwarts <span class='Github'>Github: rweasley</span></p>
+                </div>
+            </div>
+        </div><div class='col'>
+            <div class='card'>
+                <div class='card-title'>
+                    <h2 class='name'>Neville Longbottom</h3>
+                    <h3 class='type'>Intern</h4>
+                </div>
+                <div class='card-body'>
+                    <p>ID: <span class='ID'>147</span></p>
+                    <p>Email: <span class='Email'><a href='mailto:Longbottom@gmail.com'>Longbottom@gmail.com</a></span></p>
+                    <p>School: Hogwarts <span class='Github'> Github: NLongbottom</span></p>
+                </div>
+            </div>
+        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    </html>
